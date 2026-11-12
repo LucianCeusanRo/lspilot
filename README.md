@@ -6,6 +6,7 @@
 
 **A tutor-style study panel for Moodle that switches itself off during graded exams.**
 
+  <a href="https://github.com/LucianCeusanRo/lspilot/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/LucianCeusanRo/lspilot/actions/workflows/ci.yml/badge.svg"></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green.svg"></a>
   <img alt="JavaScript" src="https://img.shields.io/badge/language-JavaScript-blue">
   <a href="https://github.com/LucianCeusanRo/lspilot/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/LucianCeusanRo/lspilot?style=flat"></a>
