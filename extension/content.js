@@ -57,5 +57,8 @@
       ask(a, q);
     });
   }
+  if (typeof window !== 'undefined') {
+    window.__LSPILOT_STUDY__ = { SYS: SYS, wrongAnswers: wrongAnswers, isReview: isReview, pageText: pageText, selection: selection };
+  }
   if (document.body) build();
 })();
