@@ -1,0 +1,10 @@
+moodle
+browser-extension
+chrome-extension
+manifest-v3
+cloudflare-workers
+gemini
+education
+study-assistant
+javascript
+academic-integrity

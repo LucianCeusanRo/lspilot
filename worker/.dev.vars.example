@@ -1,0 +1,21 @@
+# Copy to worker/.dev.vars for `wrangler dev` (git-ignored). In production use `wrangler secret put NAME`.
+GEMINI_API_KEY=your-google-ai-studio-key
+# GEMINI_API_KEYS=key1,key2            # optional rotation list
+HMAC_SECRET=generate-a-long-random-string
+LICENSE_KEYS=                          # optional comma-separated list of pre-issued keys
+OWNER_LICENSE_KEY=                     # optional key with unlimited quota (for you)
+ADMIN_EMAIL=admin@example.com
+ADMIN_PASSWORD_SALT=random-salt
+ADMIN_PASSWORD_HASHES=                 # comma-separated SHA-256(salt+password) hex hashes
+STRIPE_WEBHOOK_SECRET=                 # only if you sell licenses through Stripe
+FGO_COD_UNIC=                          # only for Romanian e-invoicing via FGO
+FGO_PRIVATE_KEY=
+FGO_SERIE=
+ALLOW_ANONYMOUS=0                      # 1 = allow requests without a license key (uses your AI quota!)
+# Optional invoice/company details shown by the admin panel
+COMPANY_NAME=
+COMPANY_CIF=
+COMPANY_REGCOM=
+COMPANY_ADDRESS=
+COMPANY_EMAIL=
+COMPANY_PHONE=

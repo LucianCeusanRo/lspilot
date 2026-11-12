@@ -1,0 +1,8 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "lspilot-worker",
+  // "account_id": "YOUR_CLOUDFLARE_ACCOUNT_ID",   // or let `wrangler login` pick it
+  "main": "worker.js",
+  "compatibility_date": "2026-10-19",
+  "observability": { "enabled": true }
+}
